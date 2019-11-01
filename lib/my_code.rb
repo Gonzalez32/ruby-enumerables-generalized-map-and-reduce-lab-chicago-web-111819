@@ -6,5 +6,5 @@ def map(g)
     array << yield(element)
   end
 
-   return temp_array
+   return array
 end
