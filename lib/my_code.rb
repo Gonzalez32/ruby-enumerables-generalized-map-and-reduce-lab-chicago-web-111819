@@ -1,9 +1,9 @@
 
 def map(g)
-  temp_array = []
+  array = []
 
    g.each do |element|
-    temp_array << yield(element)
+    array << yield(element)
   end
 
    return temp_array
