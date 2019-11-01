@@ -8,3 +8,4 @@ def map(g)
 
    return array
 end
+
